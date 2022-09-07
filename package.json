@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ogaga01/Portfolio-Website/issues"
   },
-  "homepage": "https://github.com/Ogaga01/Portfolio-Website#readme"
+  "homepage": "https://github.com/Ogaga01/Portfolio-Website#readme",
+  "devDependencies": {
+    "hint": "^7.1.2"
+  }
 }
