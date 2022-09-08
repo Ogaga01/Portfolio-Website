@@ -1,3 +1,275 @@
 body {
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+@media all and (max-width: 450px) {
+  #navigation {
+    height: 100px;
+    background-image: url(./images/bg3.svg);
+    background-repeat: no-repeat;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #menu-icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #menu-bar {
+    font-size: 20px;
+    margin-right: 4%;
+    margin-top: 4%;
+  }
+
+  #menu-list {
+    display: none;
+  }
+
+  #introduction {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .heading1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 200;
+    width: 35%;
+    margin-bottom: 2%;
+    color: #1a2236;
+  }
+
+  .first-para {
+    font-size: 1.2rem;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+  }
+
+  .contact-button {
+    width: 90%;
+    height: 40px;
+    font-size: 1.2rem;
+    color: rgb(234, 231, 238);
+    background-color: #1a2236;
+    margin-top: 7%;
+  }
+
+  .submit {
+    width: 90%;
+    height: 40px;
+    font-size: 1.2rem;
+    color: rgb(234, 231, 238);
+    background-color: #1a2236;
+    margin-top: 7%;
+    margin-left: 5%;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  #bg {
+    height: 195px;
+    background-image: url(./images/bg4.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .heading2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 200;
+    width: 35%;
+    margin-bottom: 4%;
+    color: #1a2236;
+    margin-left: 5%;
+  }
+
+  .laptop {
+    width: 100%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    height: 200px;
+  }
+
+  .project-name {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 1;
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  .tech {
+    list-style-type: none;
+    display: flex;
+    color: #354b5b;
+    justify-content: flex-start;
+    width: 90%;
+    margin-left: -10%;
+    margin-top: 0;
+  }
+
+  .tech-li {
+    background-color: #98dede;
+    width: 25%;
+    margin-left: 5%;
+    font-size: 1rem;
+    font-weight: 5;
+  }
+
+  .project-button {
+    height: 50px;
+    background-color: #1a2236;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    margin-top: 5%;
+  }
+
+  .second-para {
+    font-size: 1.2rem;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    margin-left: 5%;
+  }
+
+  #languages {
+    background-color: #1c528a;
+    height: 300px;
+    width: 90%;
+    margin-left: 5%;
+    background-image: url(./images/#.svg);
+  }
+
+  .heading3 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 15%;
+    margin-left: 10%;
+  }
+
+  #languages-list {
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 150%;
+    font-size: 1.2rem;
+  }
+
+  #frameworks {
+    background-color: #e2505c;
+    height: 300px;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  #frameworks-list {
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 150%;
+    font-size: 1.2rem;
+  }
+
+  #skills {
+    background-color: #febf52;
+    height: 300px;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  #skills-list {
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 150%;
+    font-size: 1.2rem;
+  }
+
+  #bg2 {
+    height: 100px;
+    background-image: url(./images/bg3.svg);
+    background-repeat: no-repeat;
+    margin-top: 15%;
+    margin-bottom: 0;
+  }
+
+  .third-para {
+    font-size: 1.2rem;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    margin-left: 5%;
+  }
+
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    height: 60px;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .text-area {
+    height: 120px;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  footer {
+    background-color: #1a2236;
+    height: 150px;
+    margin-top: 20%;
+  }
+
+  #cv {
+    padding-top: 10%;
+    margin-left: 5%;
+  }
+
+  .cv-link {
+    color: #92dcdc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .socials {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 10%;
+  }
+
+  .social-link {
+    width: 18%;
+  }
+
+  .fa-brands {
+    font-size: 25px;
+  }
+}
