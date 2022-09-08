@@ -64,4 +64,72 @@ a {
     .contact-button {
         color: #fff;
     }
+
+    #bg {
+        height: 195px;
+        background-image: url(./images/bg4.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .heading2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+        font-weight: 200;
+        width: 35%;
+        margin-bottom: 2%;
+        color: #1A2236;
+        margin-left: 5%;
+    }
+
+    .laptop {
+        width: 100%;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        background-color: #1A2236;
+        height: 200px;
+    }
+
+    .project-name {
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        font-weight: 1;
+        font-size: 1.5rem;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    .tech {
+        list-style-type: none;
+        display: flex;
+        color: #354B5B;
+        justify-content: flex-start;
+        width: 90%;
+        margin-left: -10%;
+        margin-top: 0;
+    }
+
+    .tech-li {
+        background-color: #98DEDE;
+        width: 25%;
+        margin-left: 5%;
+        font-size: 1rem;
+        font-weight: 5;
+    }
+
+    .project-button {
+        height: 50px;
+        background-color: #1A2236;
+        border: 1px solid #fff;
+        color: #fff;
+        width: 50%;
+        margin-left: 5%;
+        font-size: 1.2rem;
+        margin-top: 5%;
+
+    }
 }
