@@ -205,4 +205,39 @@ a {
         line-height: 150%;
         font-size: 1.2rem;
     }
+
+    #bg2 {
+        height: 100px;
+        background-image: url(./images/bg3.svg);
+        background-repeat: no-repeat;
+        margin-top: 15%;
+        margin-bottom: 0;
+    }
+
+    .third-para {
+        font-size: 1.2rem;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif;
+        width: 85%;
+        margin-left: 5%;
+    }
+
+    #contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        height: 60px;
+        margin-top: 5%;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .text-area {
+        height: 120px;
+        margin-top: 5%;
+        width: 90%;
+        margin-left: 5%;
+    }
 }
