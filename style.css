@@ -31,10 +31,15 @@ a {
   #menu-list {
     display: none;
     background-color: #fff;
-    height: 700px;
+    height: 80vh;
     width: 100%;
     position: absolute;
     margin-top: -40px;
+    transition: 1s;
+  }
+
+  .show {
+    display: block !important;
   }
 
   #nav-list {
@@ -46,6 +51,10 @@ a {
     margin-left: -10%;
     background-image: url(./images/bg5.svg);
     background-repeat: no-repeat;
+  }
+
+  .list-link {
+    color: #282828;
   }
 
   #nav-list li:first-child{
@@ -268,14 +277,14 @@ a {
   .text {
     height: 60px;
     margin-top: 5%;
-    width: 90%;
+    width: 85%;
     margin-left: 5%;
   }
 
   .text-area {
     height: 120px;
     margin-top: 5%;
-    width: 90%;
+    width: 85%;
     margin-left: 5%;
   }
 
