@@ -30,6 +30,44 @@ a {
 
   #menu-list {
     display: none;
+    background-color: #fff;
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    margin-top: -40px;
+  }
+
+  #nav-list {
+    list-style-type: none;
+    color: #282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -10%;
+    background-image: url(./images/bg5.svg);
+    background-repeat: no-repeat;
+  }
+
+  #nav-list li:first-child{
+    align-self: flex-end;
+    font-size: 35px;
+    margin-bottom: 100px;
+    margin-right: 5%;
+  }
+
+  .menu-li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    line-height: 60px;
+  }
+
+  #bg3 {
+    height: 150px;
+    background-image: url(./images/bg2.svg);
+    margin-top: 158px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
   }
 
   #introduction {
