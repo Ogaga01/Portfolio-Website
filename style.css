@@ -150,4 +150,59 @@ a {
         width: 85%;
         margin-left: 5%;
     }
+
+    #languages {
+        background-color: #1C528A;
+        height: 300px;
+        width: 90%;
+        margin-left: 5%;
+        background-image: url(./images/#.svg);
+    }
+
+    .heading3 {
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        padding-top: 15%;
+        margin-left: 10%;
+        
+    }
+
+    #languages-list {
+        margin-left: 5%;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        line-height: 150%;
+        font-size: 1.2rem;
+    }
+
+    #frameworks {
+        background-color: #E2505C;
+        height: 300px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #frameworks-list {
+        margin-left: 5%;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        line-height: 150%;
+        font-size: 1.2rem;
+    }
+
+    #skills {
+        background-color: #FEBF52;
+        height: 300px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    #skills-list {
+        margin-left: 5%;
+        font-family: 'Poppins', sans-serif;
+        color: #fff;
+        line-height: 150%;
+        font-size: 1.2rem;
+    }
 }
