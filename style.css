@@ -1,3 +1,67 @@
 body {
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+@media all and (max-width: 450px) {
+    #navigation {
+        height: 100px;
+        background-image: url(./images/bg3.svg);
+        background-repeat: no-repeat;
+    }
+    #navbar {
+        display: none;
+    }
+
+    #menu-icon {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #menu-bar {
+        font-size: 20px;
+        margin-right: 4%;
+        margin-top: 4%;
+    }
+
+    #menu-list {
+        display: none;
+    }
+
+    #introduction {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .heading1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
+        font-weight: 200;
+        width: 35%;
+        margin-bottom: 2%;
+        color: #1A2236;
+    }
+
+    .first-para {
+        font-size: 1.2rem;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif;
+        width: 85%;
+    }
+
+    .submit {
+        width: 100%;
+        height: 40px;
+        font-size: 1.2rem;
+        color: rgb(234, 231, 238);
+        background-color: #1A2236;
+        margin-top: 7%;
+    }
+
+    .contact-button {
+        color: #fff;
+    }
+}
