@@ -240,4 +240,36 @@ a {
         width: 90%;
         margin-left: 5%;
     }
+
+    footer {
+        background-color: #1A2236;
+        height: 150px;
+        margin-top: 20%;
+    }
+
+    #cv {
+        padding-top: 10%;
+        margin-left: 5%;
+    }
+
+    .cv-link {
+        color: #92DCDC;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .socials {
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        margin-top: 10%;
+    }
+    
+    .social-link {
+        width: 18%;
+    }
+
+    .fa-brands {
+        font-size: 25px;
+    }
 }
