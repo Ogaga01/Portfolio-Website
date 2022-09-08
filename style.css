@@ -52,8 +52,8 @@ a {
         width: 85%;
     }
 
-    .submit {
-        width: 100%;
+    .contact-button {
+        width: 90%;
         height: 40px;
         font-size: 1.2rem;
         color: rgb(234, 231, 238);
@@ -61,7 +61,17 @@ a {
         margin-top: 7%;
     }
 
-    .contact-button {
+    .submit {
+        width: 90%;
+        height: 40px;
+        font-size: 1.2rem;
+        color: rgb(234, 231, 238);
+        background-color: #1A2236;
+        margin-top: 7%;
+        margin-left: 5%;
+    }
+
+    a {
         color: #fff;
     }
 
@@ -79,7 +89,7 @@ a {
         font-size: 3rem;
         font-weight: 200;
         width: 35%;
-        margin-bottom: 2%;
+        margin-bottom: 4%;
         color: #1A2236;
         margin-left: 5%;
     }
@@ -131,5 +141,13 @@ a {
         font-size: 1.2rem;
         margin-top: 5%;
 
+    }
+
+    .second-para {
+        font-size: 1.2rem;
+        margin-top: 2%;
+        font-family: 'Poppins', sans-serif;
+        width: 85%;
+        margin-left: 5%;
     }
 }
