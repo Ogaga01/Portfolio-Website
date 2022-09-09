@@ -408,4 +408,160 @@ a {
     color: rgb(234, 231, 238);
     background-color: #1a2236;
   }
+
+  .heading2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 200;
+    margin-bottom: 4%;
+    color: #1a2236;
+    align-self: center;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-div {
+    width: 35%;
+    padding-left: 0;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+  .laptop {
+    width: 100%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a2236;
+    height: 200px;
+    margin-top: -1%;
+  }
+
+  .project-name {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 1;
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  .tech {
+    list-style-type: none;
+    display: flex;
+    color: #354b5b;
+    justify-content: flex-start;
+    width: 90%;
+    margin-left: -10%;
+    margin-top: 0;
+  }
+
+  .tech-li {
+    background-color: #98dede;
+    width: 25%;
+    margin-left: 5%;
+    font-size: 1rem;
+    font-weight: 5;
+  }
+
+  .project-button {
+    height: 50px;
+    background-color: #1a2236;
+    border: 1px solid #fff;
+    color: #fff;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 1.2rem;
+    margin-top: 5%;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 10%;
+  }
+
+  #about-head {
+    width: 30%;
+  }
+
+  #about-skill {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .second-para {
+    font-size: 1.2rem;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+  }
+
+  #languages {
+    background-color: #1c528a;
+    height: 250px;
+    width: 40%;
+    background-image: url(./images/#.svg);
+  }
+
+  .heading3 {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 15%;
+    margin-left: 10%;
+  }
+
+  #languages-list {
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 150%;
+    font-size: 1.2rem;
+  }
+
+  #frameworks {
+    background-color: #e2505c;
+    height: 250px;
+    width: 40%;
+  }
+
+  #frameworks-list {
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 150%;
+    font-size: 1.2rem;
+  }
+
+  #skills {
+    background-color: #febf52;
+    height: 250px;
+    width: 40%;
+  }
+
+  #skills-list {
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 150%;
+    font-size: 1.2rem;
+  }
+
 }
