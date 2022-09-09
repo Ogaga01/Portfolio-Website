@@ -57,7 +57,7 @@ a {
     color: #282828;
   }
 
-  #nav-list li:first-child{
+  #nav-list li:first-child {
     align-self: flex-end;
     font-size: 35px;
     margin-bottom: 100px;
@@ -325,63 +325,63 @@ a {
   }
 }
 
-@media all and (min-width:751px) {
-    #menu {
-        display: none;
-    }
+@media all and (min-width: 751px) {
+  #menu {
+    display: none;
+  }
 
-    #navbar {
-        position: fixed;
-        top: 0;
-        background-color: #fff;
-        height: 7vh;
-        width: 100%;
-    }
+  #navbar {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    height: 7vh;
+    width: 100%;
+  }
 
-    #desktop-nav {
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
+  #desktop-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
-    #navbar-list {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        list-style-type: none;
-        margin-left: -4.5%;
-        position: fixed;
-        top: 0;
-        background-color: #fff;
-        height: 5vh;
-        margin-top: 0%;
-        padding-top: 1%;
-        margin-bottom: 0;
-    }
+  #navbar-list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    list-style-type: none;
+    margin-left: -4.5%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    height: 5vh;
+    margin-top: 0%;
+    padding-top: 1%;
+    margin-bottom: 0;
+  }
 
-    .navbar-li {
-        font-family: 'Poppins', sans-serif;
-        color: #282828;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-    }
+  .navbar-li {
+    font-family: 'Poppins', sans-serif;
+    color: #282828;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 
-    #introduction {
-        display: flex;
-        background-image: url(./images/bg1.svg);
-        background-repeat: no-repeat;
-        background-position: 100% 37%;
-        background-size: 80vh;
-    }
+  #introduction {
+    display: flex;
+    background-image: url(./images/bg1.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 37%;
+    background-size: 80vh;
+  }
 
-    #intro {
-        width: 30%;
-        margin-top: 15vh;
-        margin-left: 15%;
-        height: 100vh;
-    }
+  #intro {
+    width: 30%;
+    margin-top: 15vh;
+    margin-left: 15%;
+    height: 100vh;
+  }
 
-    .heading1 {
+  .heading1 {
     font-family: 'Playfair Display', serif;
     font-size: 5rem;
     font-weight: 300;
@@ -646,5 +646,4 @@ a {
     margin-top: 5%;
     margin-left: 11%;
   }
-
 }
