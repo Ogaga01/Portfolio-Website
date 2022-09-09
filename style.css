@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 750px) {
   #navigation {
     height: 100px;
     background-image: url(./images/bg3.svg);
@@ -31,11 +31,11 @@ a {
   #menu-list {
     display: none;
     background-color: #fff;
-    height: 80vh;
+    height: 65vh;
     width: 100%;
     position: absolute;
-    margin-top: -40px;
     transition: 1s;
+    top: 0;
   }
 
   .show {
@@ -71,17 +71,21 @@ a {
   }
 
   #bg3 {
-    height: 150px;
+    height: 250px;
     background-image: url(./images/bg2.svg);
     margin-top: 158px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100%;
   }
 
   #introduction {
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  #bg6 {
+    display: none;
   }
 
   .heading1 {
@@ -290,7 +294,7 @@ a {
 
   footer {
     background-color: #1a2236;
-    height: 150px;
+    height: 25vh;
     margin-top: 20%;
   }
 
@@ -318,5 +322,90 @@ a {
 
   .fa-brands {
     font-size: 25px;
+  }
+}
+
+@media all and (min-width:751px) {
+    #menu {
+        display: none;
+    }
+
+    #navbar {
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        height: 7vh;
+        width: 100%;
+    }
+
+    #desktop-nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #navbar-list {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        list-style-type: none;
+        margin-left: -4.5%;
+        position: fixed;
+        top: 0;
+        background-color: #fff;
+        height: 5vh;
+        margin-top: 0%;
+        padding-top: 1%;
+        margin-bottom: 0;
+    }
+
+    .navbar-li {
+        font-family: 'Poppins', sans-serif;
+        color: #282828;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    #introduction {
+        display: flex;
+        background-image: url(./images/bg1.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 37%;
+        background-size: 80vh;
+    }
+
+    #intro {
+        width: 30%;
+        margin-top: 15vh;
+        margin-left: 15%;
+        height: 100vh;
+    }
+
+    .heading1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 5rem;
+    font-weight: 300;
+    width: 35%;
+    margin-bottom: 2%;
+    color: #1a2236;
+  }
+
+  .first-para {
+    font-size: 1rem;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .submit {
+    width: 60%;
+    height: 40px;
+    font-size: 1.2rem;
+    color: rgb(234, 231, 238);
+    background-color: #1a2236;
   }
 }
