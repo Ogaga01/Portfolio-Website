@@ -413,7 +413,7 @@ a {
     font-family: 'Playfair Display', serif;
     font-size: 4rem;
     font-weight: 200;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
     color: #1a2236;
     align-self: center;
   }
@@ -494,6 +494,11 @@ a {
     flex-direction: row-reverse;
     justify-content: center;
     margin-top: 10%;
+    background-image: url(./images/bg7.svg);
+    background-repeat: no-repeat;
+    background-size: 30vh;
+    background-position: 0% 100%;
+    padding-bottom: 20%;
   }
 
   #about-head {
@@ -562,6 +567,84 @@ a {
     color: #fff;
     line-height: 150%;
     font-size: 1.2rem;
+  }
+
+  .third-para {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    width: 30%;
+    margin-top: 0;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/bg6.svg);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position: 100% 100%;
+    padding-bottom: 20%;
+  }
+
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  .text {
+    height: 60px;
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 5%;
+  }
+
+  .text-area {
+    height: 120px;
+    margin-top: 5%;
+    width: 70%;
+    margin-left: 5%;
+  }
+
+  footer {
+    display: flex;
+    background-color: #1a2236;
+    height: 20vh;
+    margin-top: 0%;
+  }
+
+  #cv {
+    padding-top: 5%;
+    margin-left: 5%;
+    width: 30%;
+  }
+
+  .cv-link {
+    color: #92dcdc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+  }
+
+  .socials {
+    width: 60%;
+    margin-left: 5%;
+    display: flex;
+    margin-top: 5%;
+  }
+
+  .social-link {
+    width: 18%;
+  }
+
+  .fa-brands {
+    font-size: 25px;
+  }
+
+  .c {
+    margin-top: 5%;
+    margin-left: 11%;
   }
 
 }
