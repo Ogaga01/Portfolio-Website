@@ -31,11 +31,20 @@ a {
   #menu-list {
     display: none;
     background-color: #fff;
-    height: 65vh;
+    height: 90vh;
     width: 100%;
     position: absolute;
     transition: 1s;
     top: 0;
+    animation-name: bar;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+  }
+
+  @keyframes bar {
+    from {height: 0;}
+    to {height: 80vh;}
   }
 
   .show {
@@ -372,6 +381,14 @@ a {
     background-repeat: no-repeat;
     background-position: 100% 37%;
     background-size: 80vh;
+    animation-name: intro;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+  }
+
+  @keyframes intro {
+    from {width: 0;}
+    to {width: 100%;}
   }
 
   #intro {
@@ -379,6 +396,14 @@ a {
     margin-top: 15vh;
     margin-left: 15%;
     height: 100vh;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+  }
+
+  @keyframes opacity {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
   }
 
   .heading1 {
