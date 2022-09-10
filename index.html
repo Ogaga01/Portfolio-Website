@@ -16,11 +16,13 @@
             </div>
             <div id="menu-list">
                 <ul id="nav-list">
-                    <li class="menu-li">Hello</li>
-                    <li class="menu-li">Projects</li>
-                    <li class="menu-li">About</li>
-                    <li class="menu-li">Contact</li>
+                    <li class="close"><i class="fa-solid fa-xmark"></i></li>
+                    <li class="menu-li"><a href="#introduction" class="list-link">Hello</a></li>
+                    <li class="menu-li"><a href="#projects" class="list-link">Projects</a></li>
+                    <li class="menu-li"><a href="#about" class="list-link">About</a></li>
+                    <li class="menu-li"><a href="#contact" class="list-link">Contact</a></li>
                 </ul>
+                <div id="bg3"></div>
             </div>
         </nav>
         <nav id="navbar">
@@ -35,6 +37,7 @@
         </nav>
     </section>
     <section id="introduction">
+        <div id="intro">
         <h1 class="heading1">
             Ogaga Iyara
         </h1>
@@ -43,6 +46,7 @@
             If you like what you see and have a project you need coded, don’t hesitate and contact me.
         </p>
         <button type="button" class="submit"><a href="#contact" class="contact-button">Contact Me</a></button>
+        </div>
     </section>
     <div id="bg"></div>
     <section id="projects">
@@ -50,7 +54,7 @@
             Projects
         </h1>
         <div class="project">
-            <div>
+            <div class="project-div">
                 <img src="./images/lp1.svg" alt="first-project" class="laptop">
                 <div class="info">
                     <h3 class="project-name">Project 1</h3>
@@ -62,7 +66,7 @@
                     <button type="button" class="project-button">See This Project <i class="fa-light fa-arrow-right"></i></button>
                 </div>
             </div>
-            <div>
+            <div class="project-div">
                 <img src="./images/lp2.svg" alt="first-project" class="laptop">
                 <div class="info">
                     <h3 class="project-name">Project 2</h3>
@@ -74,7 +78,7 @@
                     <button type="button" class="project-button">See This Project <i class="fa-light fa-arrow-right"></i></button>
                 </div>
             </div>
-            <div>
+            <div class="project-div">
                 <img src="./images/lp3.svg" alt="first-project" class="laptop">
                 <div class="info">
                     <h3 class="project-name">Project 3</h3>
@@ -86,7 +90,7 @@
                     <button type="button" class="project-button">See This Project <i class="fa-light fa-arrow-right"></i></button>
                 </div>
             </div>
-            <div>
+            <div class="project-div">
                 <img src="./images/lp4.svg" alt="first-project" class="laptop">
                 <div class="info">
                     <h3 class="project-name">Project 4</h3>
@@ -98,7 +102,7 @@
                     <button type="button" class="project-button">See This Project <i class="fa-light fa-arrow-right"></i></button>
                 </div>
             </div>
-            <div>
+            <div class="project-div">
                 <img src="./images/lp5.svg" alt="first-project" class="laptop">
                 <div class="info">
                     <h3 class="project-name">Project 5</h3>
@@ -110,7 +114,7 @@
                     <button type="button" class="project-button">See This Project <i class="fa-light fa-arrow-right"></i></button>
                 </div>
             </div>
-            <div>
+            <div class="project-div">
                 <img src="./images/lp6.svg" alt="first-project" class="laptop">
                 <div class="info">
                     <h3 class="project-name">Project 6</h3>
@@ -125,11 +129,16 @@
         </div>
     </section>
     <section id="about">
-        <h1 class="heading2">About</h1>
-        <p class="second-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod</p>
+        <div id="about-head">
+            <h1 class="heading2">About</h1>
+            <p class="second-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ea eiusmod
+            </p>
             <button type="button" class="submit"><a href="https://docs.google.com/document/d/1qFzZ41ulkY1H1wA4-e5KH_72SAY_n1FsvedcsLidHjs/edit?usp=sharing">
-                Get My CV <i class="fa-sharp fa-solid fa-arrow-down-to-bracket"></i></a></button>
+                Get My CV <i class="fa-sharp fa-solid fa-arrow-down-to-bracket"></i></a>
+            </button>
+        </div>
+        <div id="about-skill">
             <div id="languages">
                 <h2 class="heading3">Languages</h2>
                 <ul id="languages-list">
@@ -158,6 +167,7 @@
                     <li class="skills-li">Node.js</li>
                 </ul>
             </div>
+        </div>
     </section>
     <div id="bg2"></div>
     <section id="contact">
@@ -168,7 +178,7 @@
             <input type="text" name="name" placeholder="Your Name" class="text">
             <input type="text" name="email" placeholder="Your Email" class="text">
             <input type="textarea" name="text" placeholder="Enter your text here" class="text-area">
-            <input type="submit" value="Contact Me" class="submit">
+            <input type="submit" value="Contact Me" class="submit c">
         </form>
     </section> 
     <footer id="footer">
@@ -197,6 +207,9 @@
                 <i class="fa-brands fa-angellist"></i>
             </a>
         </div>
-    </footer> 
+    </footer>
+
+
+    <script src="./mobile.js"></script> 
 </body>
 </html>
