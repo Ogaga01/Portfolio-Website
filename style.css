@@ -382,12 +382,12 @@ a {
     background-position: 100% 37%;
     background-size: 80vh;
     animation-name: intro;
-    animation-duration: 2s;
-    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
   }
 
   @keyframes intro {
-    from {width: 0;}
+    from {width: 0%;}
     to {width: 100%;}
   }
 
@@ -397,8 +397,9 @@ a {
     margin-left: 15%;
     height: 100vh;
     animation-name: opacity;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-timing-function: ease;
+    animation-delay: 0s;
   }
 
   @keyframes opacity {
