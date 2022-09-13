@@ -43,8 +43,8 @@ a {
   }
 
   @keyframes bar {
-    from {height: 0;}
-    to {height: 80vh;}
+    from { height: 0; }
+    to { height: 80vh; }
   }
 
   .show {
@@ -387,8 +387,8 @@ a {
   }
 
   @keyframes intro {
-    from {width: 0%;}
-    to {width: 100%;}
+    from { width: 0%; }
+    to { width: 100%; }
   }
 
   #intro {
@@ -403,8 +403,8 @@ a {
   }
 
   @keyframes opacity {
-    from {opacity: 0%;}
-    to {opacity: 100%;}
+    from { opacity: 0%; }
+    to { opacity: 100%; }
   }
 
   .heading1 {
