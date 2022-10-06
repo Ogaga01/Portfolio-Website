@@ -7,6 +7,7 @@ const project = document.querySelector('.pop-up');
 const closeProject = document.querySelector('.project-close');
 const navBar = document.getElementById('navbar-list');
 const desktopNav = document.getElementById('desktop-nav');
+const navList = document.getElementById('nav-list')
 
 openMenu.addEventListener('click', () => {
   popUp.classList.add('show');
@@ -43,7 +44,14 @@ navBar.addEventListener('click', (e) => {
   }
 });
 
+navList.addEventListener('click', (e) => {
+  e.preventDefault()
 
+  if (e.target.classList.contains("list-link")) {
+    const id = e.target.getAttribute("href");
+    document.querySelector(id).scrollIntoView({ behavior: "smooth" });
+  }
+})
 
 function navBarHover(e) {
   e.preventDefault();
